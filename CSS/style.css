@@ -1,0 +1,450 @@
+.gradient-background {
+  background: linear-gradient(300deg, #99e6ff, #aec8ff, #e5caff);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.titlebox{
+  margin: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  height: 100vh;
+}
+
+
+
+.firsttextbtn{
+  margin: auto 0;
+  top: 0;
+  width: 50%;
+  padding: 40px;
+}
+
+.firstline{
+  
+  letter-spacing: 2px;
+  color: #000000;
+  font-size: 60px;
+  
+  margin: 0;
+}
+
+.firstimg{
+  display: flex;
+  padding-top: 20px;
+  
+  width: auto;
+}
+
+.btn{
+  padding: 10px 15px;
+  font-size: 16px;
+  color: black;
+  background: rgba(255, 255, 255, 0.226);
+  border-radius: 8px;
+  border: none;
+  margin-right: 15px;
+  margin-top: 20px;
+  
+  transition: 1s;
+}
+
+.btn:hover{
+  background-color: #ffffff;
+  
+  
+}
+
+.bi{
+  height: 20px;
+  margin-right: 10px;
+}
+
+h4{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  margin: auto 0;
+}
+
+.icon{
+  padding-right: 10px;
+  width: 30px;
+}
+
+svg{
+  font-size: 400px;
+}
+
+
+
+.features{
+  display: flex;
+  padding: 48px;
+  gap: 20px;
+}
+
+.feature{
+  display: flex;
+  
+}
+
+.headfea{
+  color: #212529;
+  margin: 0;
+}
+
+.textfea{
+  color: #212427;
+}
+
+
+
+.iconfea{
+  padding: 15px;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: #e9ecef;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.testihead{
+  text-align: center;
+  font-size: 30px;
+  
+  width: 80%;
+}
+
+.dogpng{
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.placetesti{
+  color: #212429;
+}
+
+.sponsers{
+  margin-top: 30px;
+}
+
+.logosofspon{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.sponimg{
+  height: 30px;
+}
+
+#testimonial{
+  padding: 48px;
+  background-color: #e9f0f8;
+  height: 60vh;
+}
+
+#pricing{
+  height: 100vh;
+  
+}
+
+.pricinall{
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 0px;
+}
+
+.headpricinall{
+  margin: 0;
+  margin-top: 40px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.textpricin{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #212429bf;
+}
+
+.labelpricin{
+  margin: 0;
+  font-size: 25px;
+  text-align: center;
+  padding: 15px;
+}
+
+.headpricin{
+  width: 100%;
+  background-color: #d9f5ff;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.prisin{
+  width: 70%;
+  margin: 30px;
+  text-align: center;
+  background-color: #f5fcff;
+  border-radius: 10px;
+  
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  
+}
+
+.listpricin{
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+
+
+.btnpricin{
+  background: #d6f5ff;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 100px;
+  width: 90%;
+  font-weight: 500;
+  font-family: 'poppins' , sans-serif;
+  margin-bottom: 20px;
+  transition: 0s;
+}
+
+.linkpricin{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  
+}
+
+.btnpricin:hover{
+  filter: grayscale(100%);
+}
+
+.threeb{
+  background: rgb(255,215,0);
+}
+
+.twob{
+  background: #aec8ff;
+}
+
+.l3{
+  color: rgb(0, 0, 0);
+}
+
+.l2{
+  color: rgb(0, 0, 0);
+}
+
+.threepricin{
+  border-radius: 10px 10px 0px 0px;
+  background: rgb(255,215,0);
+  color: rgb(0, 0, 0);
+  width: 100%;
+  
+}
+
+.twopricin{
+  border-radius: 10px 10px 0px 0px;
+  background: #aec8ff;
+  color: rgb(0, 0, 0);
+  width: 100%;
+}
+
+footer{
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  padding: 0;
+}
+
+.contoffooter{
+  padding: 20px 40px;
+}
+
+.itemsoffooter{
+  width: 20%;
+}
+
+#footerr{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(300deg, #99e6ff, #aec8ff, #e5caff);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  bottom: 0;
+}
+
+.newbtn{
+  display: inline;
+  color: #000000;
+  background-color: #ffffff5e;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+
+
+.emoji{
+  padding: 8px 12px;
+  border-radius: 100%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  margin: 20px;
+  font-size: 30px;
+  position: fixed;
+}
+
+@media only screen and (max-width:1050px){
+  #title{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .titlebox{
+    flex-direction: column;
+    
+    width: 100%;
+  }
+  .firstimg{
+    display: none;
+  }
+
+  .firstline{
+    font-size: 50px;
+    width: 100%;
+  }
+  .firsttextbtn{
+    width: 90%;
+    margin: auto 20px;
+    padding: 0;
+  }
+
+  .btn{
+    font-size: 15px;
+  }
+
+  .features{
+    flex-direction: column;
+  }
+
+  .sponsers{
+    width: 100%;
+  }
+  .sponimg{
+    
+    height: 15px;
+    
+  }
+  #testimonial{
+    height: 100%;
+  }
+  .testihead{
+    font-size: 30px;
+    width: 100%;
+    margin: 20px;
+  }
+
+  .placetesti{
+    font-size: 20px;
+  }
+
+  .dogpng{
+    height: 70px;
+    width: 70px;
+  }
+
+  .headpricinall{
+    font-size: 30px;
+  }
+  .textpricin{
+    font-size: 15px;
+  }
+
+  .pricinall{
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+  }
+
+  footer{
+    flex-direction: column;
+  }
+
+  #pricing{
+    height: 100%;
+  }
+
+  .mainoffooter{
+    display: block;
+  }
+
+  .itemsoffooter{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:500px){
+  .logosofspon{
+    gap: 5px;
+  }
+
+  .sponsers{
+    width: 100%;
+  }
+}
+
+
+
